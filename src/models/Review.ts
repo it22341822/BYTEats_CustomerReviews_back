@@ -1,5 +1,3 @@
-// src/models/Review.ts
-
 import mongoose, { Schema } from 'mongoose';
 import { IReview } from '../interfaces/IReview';
 

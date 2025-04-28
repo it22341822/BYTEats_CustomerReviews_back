@@ -1,5 +1,3 @@
-// src/routes/reviewRoutes.ts
-
 import express from 'express';
 import {
   getReviews,
