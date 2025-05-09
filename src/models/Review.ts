@@ -11,6 +11,10 @@ const ReviewSchema: Schema = new Schema(
       type: String,
       required: true,
     },
+    restaurantId: {           
+      type: String,
+      required: true,
+    },
     reviewText: {
       type: String,
       required: true,

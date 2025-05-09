@@ -1,5 +1,3 @@
-// src/interfaces/IReview.ts
-
 import { Document } from 'mongoose';
 
 export interface IReview extends Document {
@@ -7,6 +5,7 @@ export interface IReview extends Document {
   customerName: string;
   reviewText: string;
   rating: number;
+  restaurantId: string; 
   createdAt: Date;
   updatedAt: Date;
 }
